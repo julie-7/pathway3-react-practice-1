@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Home = () => {
+export const Home = () => {
     const [name, setname] = useState(`hi julie`)
 
     const handleclick = () => {
@@ -16,5 +16,3 @@ const Home = () => {
         </div>
     );
 }
-
-export default Home;
